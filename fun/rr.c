@@ -168,3 +168,42 @@ void main(){
 
     printResult(p,n);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+mov bl ,00
+mov si,0500
+mov di,0600
+mov cl ,[si]
+inc si
+mov al,[si]
+test al,01
+jz
+add bl,al
+dec cl
+jnz
+mov [di],bl
+inc di
+mov ax,bx
+div ,[0500]
+mov [di],al
+hlt
+*/

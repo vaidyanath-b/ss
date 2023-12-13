@@ -119,3 +119,39 @@ void main(){
 
     printf("\nPage Faults: %d \n",pageFaults);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+mov si ,3000
+mov cl 04
+mov al,[si]
+inc si
+mov bl,[si]
+cmp al,bl
+jnc
+mov al,bl
+mov ah,bl
+dec cl
+jnz
+inc si
+mov [si],al largest
+inc si
+mov [si],ah
+*/
