@@ -1,0 +1,6 @@
+declare
+id INT := &id;
+    begin
+    salary_fetch(id);
+  end;
+  /

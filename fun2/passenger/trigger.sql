@@ -1,0 +1,7 @@
+CREATE OR REPLACE TRIGGER on_insert1
+AFTER INSERT ON passenger
+FOR EACH ROW
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Passenger Inserted');
+END;
+/
